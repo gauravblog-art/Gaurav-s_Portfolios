@@ -15,7 +15,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(gaurav1.jpg);
+    background-image: url(images/gaurav1.jpg);
     background-size: cover;
     background-position: center;
 
@@ -31,7 +31,7 @@ nav{
 
 }
 .logo{
-    width: 140px;
+    width: 200px;
 }
 
 nav ul li{
@@ -71,6 +71,11 @@ nav ul li a:hover::after{
     color:#ff004f;
 }
 
+#element {
+    color: brown;
+    font-size: 30px;
+    text-align: center;
+}
 /* ------------------------about-------------- */
 
 
@@ -370,7 +375,7 @@ nav .fas{
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(gaurav-removebg-preview.png);
+        background-image: url(images/gaurav-removebg-preview.png);
     }
     .head-text{
         margin-top: 100%;
